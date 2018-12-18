@@ -54,6 +54,7 @@ if __name__ == "__main__":
     mnist = input_data.read_data_sets("/tmp/data/")
     n_epochs = 40
     batch_size = 50
+
     with tf.Session() as sess:
         init.run()
 
