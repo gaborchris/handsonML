@@ -1,4 +1,3 @@
-print("Will download california dataset!")
 import os
 import datasets
 import tarfile

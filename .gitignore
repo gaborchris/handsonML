@@ -1,2 +1,4 @@
 chapter10/tf_log/*
 datasets/*
+*.pyc
+*.swp
