@@ -4,7 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import tensorflow as tf
 if __name__ == "__main__":
-    mnist = input_data.read_data_sets("/tmp/data/")
+    mnist = input_data.read_data_sets("/tmp/datasets/")
 
     n_inputs = 28*28
     n_hidden1 = 300

@@ -51,7 +51,7 @@ if __name__ == "__main__":
     init = tf.global_variables_initializer()
     saver = tf.train.Saver()
 
-    mnist = input_data.read_data_sets("/tmp/data/")
+    mnist = input_data.read_data_sets("/tmp/datasets/")
     n_epochs = 40
     batch_size = 50
 
