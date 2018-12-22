@@ -13,7 +13,7 @@ if __name__ == '__main__':
     dest_folder = 'bikes/'
 
     #fetch data from github
-    #data_loader.fetch_data(bike_url, dest_folder)
+    data_loader.fetch_data(bike_url, dest_folder)
 
     data_path = data_loader.dataset_path(dest_folder, 'bikes.csv')
     print("Loading data from:\n" + data_path)
