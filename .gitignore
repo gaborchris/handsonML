@@ -2,3 +2,8 @@ chapter10/tf_log/*
 datasets/*
 *.pyc
 *.swp
+*.ckpt.*
+*.ckpt
+checkpoint
+*/tf_logs/*
+*/tf_log/*
