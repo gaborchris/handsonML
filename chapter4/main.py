@@ -163,9 +163,9 @@ if __name__ == "__main__":
     Z = Z.reshape(xgrid.shape)
 
     plt.contourf(xgrid, ygrid, Z)
-    plt.scatter(X[y==0][:, 0], X[y==0][:, 1], label='1',color='red')
-    plt.scatter(X[y == 1][:, 0], X[y == 1][:, 1], label='2', color='orange')
-    plt.scatter(X[y == 2][:, 0], X[y == 2][:, 1], label='3', color='cyan')
+    plt.scatter(X[y==0][:, 0], X[y==0][:, 1], label='setosa',color='red')
+    plt.scatter(X[y == 1][:, 0], X[y == 1][:, 1], label='versicolor', color='orange')
+    plt.scatter(X[y == 2][:, 0], X[y == 2][:, 1], label='virginica', color='cyan')
     plt.legend()
     plt.show()
 
