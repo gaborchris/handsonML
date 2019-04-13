@@ -1,6 +1,6 @@
 chapter10/tf_log/*
 datasets/*
-*.pyc
+#.pyc
 *.swp
 *.ckpt.*
 *.ckpt
