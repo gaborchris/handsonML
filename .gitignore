@@ -7,3 +7,5 @@ datasets/*
 checkpoint
 */tf_logs/*
 */tf_log/*
+*/__pycache__/*
+*/.ipynb_checkpoints/*
